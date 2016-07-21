@@ -1,0 +1,151 @@
+/* CSS Document */
+html,body,ul,li,ol,dl,dd,dt,p,h1,h2,h3,h4,h5,h6,form,fieldset,legend,img{margin:0;padding:0;}
+fieldset,img{border:0;}
+img{display:block;}
+ul,ol,li{list-style:none;} 
+body{font:12px "微软雅黑";}
+a{color:#666;text-decoration:none;}
+h1,h2,h3,h4,h5,h6{font-weight:100;}
+
+
+
+/*---------------------------header------------------------------------*/
+.header{height:30px;background:#f2f2f2;}
+.header_con{height:30px;width:1041px;margin:0 auto;}
+
+/*---------------------------header_left------------------------------------*/
+.header_left{height:30px;float:left;}
+.header_left li{float:left;margin-left:6px;text-align:center;line-height:30px;min-width:37px;}
+.header_left img{float:left;margin-top:3px;}
+.header_left a{color:#000;}
+.header_left a:hover{color:#ce3b0e;}
+
+/*---------------------------header_right------------------------------------*/
+.header_right{height:30px;float:right;}
+.header_right{margin-right:105px;}
+.header_right li{float:left;margin-right:6px;text-align:center;line-height:30px;min-width:37px;}
+.phone_app div{display:none;top:30px;right:332px;z-index:99;position:absolute;width:100px;height:112px;background:#fff;padding:10px;}
+.phone_app span{display:block;line-height:18px}
+.header_right a{color:#000;}
+.header_right a:hover{color:#ce3b0e;}
+.header_r_bg{height:20px;margin-top:5px;}
+.header_r_bg a{float:left;width:21px;height:20px;background:url(img/base_z.png);}
+.header_r_bg a{background-position-x:-604px;}
+.header_r_bg a{background-position-y:-329px;}
+
+/*---------------------------brand------------------------------------*/
+.brand{height:90px;}
+.brand_con{width:1041px;height:90px;margin:0 auto;}
+.brand_con a{width:187px;height:90px;float:left;background:url(img/base_z.png);}
+.brand_con a{background-position:-853px -295px;}
+.brand_con p{font-weight:600;font-size:14px;width:135px;height:40px;margin-left:18px;float:left;padding-top:50px;color:#7b7b7b;}
+
+
+/*---------------------------nav------------------------------------*/
+.nav{height:42px;background:#000;}
+.nav_con{width:1041px;height:42px;margin:0 auto;}
+
+/*---------------------------nav_left------------------------------------*/
+.nav_left{float:left;height:42px;margin-left:20px;}
+.nav_left li{position:relative;height:42px;float:left;margin-right:50px;}
+.nav_left a{font-size:14px;height:42px;float:left;color:#fff;text-align:center;line-height:42px;}
+.nav_left a:hover{color:#ce3b0e;}
+.nav_second_menu{padding:20px 20px 10px;z-index:99;width:580px;height:270px;position:absolute;left:0px;top:42px;display:none;background:#fff;}
+.aolai .nav_second_menu{width:254px;border:none;}
+
+.menu_left{float:left;position:relative;padding-right:20px;width:254px;height:270px;border-right:1px solid #cfcfcf;}
+.menu_left h3{border-bottom:1px solid #cfcfcf;height:30px;width:254px;}
+.menu_left li{height:15px;margin-top:10px;float:none;}
+.menu_left a{font-size:12px;color:#666;height:15px;line-height:15px;}
+.menu_left span{position:absolute;bottom:0px;right:10px;}
+.menu_left span a{color:#000;}
+
+.menu_right{float:left;width:260px;height:270px;padding:0 20px;}
+.menu_right h3{border-bottom:1px solid #cfcfcf;height:30px;width:260px;}
+.menu_right li{height:15px;margin-top:10px;display:block;float:none;}
+.menu_right a{font-size:12px;color:#666;height:15px;line-height:15px;}
+
+/*---------------------------nav_right------------------------------------*/
+.nav_right{float:right;height:42px;margin-right:37px;}
+.nav_right li{height:42px;float:left;margin-left:15px;text-align:center;line-height:42px;}
+.nav_right span{color:#fff;}
+.nav_right a{font-size:14px;color:#fff;}
+.shopping_bag a{float:left;width:23px;height:42px;background:url(img/base_z.png);}
+.shopping_bag a{background-position:-1017px -219px;}
+
+/*---------------------------banner------------------------------------*/
+.banner{height:524px;}
+.banner_con{height:524px;position:relative;left:0px;overflow:hidden;}
+.banner img{position:absolute;top:0px;left:-200px;}
+
+
+/*---------------------------product------------------------------------*/
+.product{height:6000px;}
+.product_con{height:6000px;width:1040px;margin:0 auto;padding:20px 20px 0px;}
+
+/*---------------------------pro_topBanner------------------------------------*/
+.pro_topBanner{width:1000px;height:100px;margin-bottom:40px;}
+.pro_menu{width:1000px;height:auto;}
+.pro_menu h3{width:1000px;height:28px;margin-bottom:10px;}
+.pro_leftSpan{float:left;width:6px;height:28px;background:url(img/icon_title.png) no-repeat left top;}
+.pro_title{float:left;width:98px;height:28px;padding:0px 10px;font-size:24px;line-height:26px;}
+.pro_rightSpan{float:left;width:6px;height:28px;background:url(img/icon_title.png) no-repeat right top;}
+
+
+
+
+
+
+
+
+
+
+
+/*---------------------------footer------------------------------------*/
+.footer{height:235px;background:#f2f2f2;}
+.footer_con{height:205px;width:1041px;margin:0 auto;margin-top:0px;padding-top:30px;}
+.footer_top{margin-left:20px;height:60px;}
+.footer_top li{width:167px;height:60px;float:left;}
+.footer_top a{color:#000;width:167px;height:60px;line-height:100px;float:left;border-right:1px solid #000;text-align:center;}
+
+.heart a{background:url(img/base_z.png)}
+.car a{background:url(img/base_z.png)}
+.calendar a{background:url(img/base_z.png)}
+.discount a{background:url(img/base_z.png)}
+.clock a{background:url(img/base_z.png)}
+.phone a{background:url(img/base_z.png)}
+
+.heart a{background-position:-153px -146px}
+.car a{background-position:-543px -104px}
+.calendar a{background-position:-150px -382px}
+.discount a{background-position:-419px 5px}
+.clock a{background-position:-301px -346px}
+.phone a{background-position:-301px -112px}
+
+.heart a:hover{background-position:-153px -264px}
+.car a:hover{background-position:-543px 7px}
+.calendar a:hover{background-position:-301px -229px}
+.discount a:hover{background-position:-419px -107px}
+.clock a:hover{background-position:-301px -459px}
+.phone a:hover{background-position:-301px 5px}
+
+.footer_mid{margin-left:225px;height:56px;}
+.footer_mid{line-height:56px;}
+.footer_mid a{margin-left:29px;height:56px;float:left;color:#000;}
+.footer_mid a:hover{color:#ce3b0e;}
+
+.footer_con p{padding-left:255px}
+.footer_con p span{float:left;margin-left:30px;}
+
+.footer_con i{float:left;margin-left:395px;height:40px;margin-top:20px;}
+.footer_con i a{float:left;margin-left:30px;}
+
+
+
+
+
+
+
+
+
+
