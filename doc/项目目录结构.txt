@@ -1,0 +1,24 @@
+src
+	img:放置图片文件，如果banner、广告图等
+	css:放置css文件
+		img:放置css中使用的图片，如背景图片、图标等装饰图片
+		reset.css	重置性样式（normalize.css）
+		base.css	所有页面公用的样式
+		common.css	公共模块/重复性类
+		..
+		index.css
+		style.css
+	sass:
+	js:放置js文件
+		common.js	封装的函数
+		index.js	首页js文件
+		模块.js		
+		...
+	assets:放置插件
+		jquery等
+	html
+		列表页，商品详情页，购物车也，注册，登录
+	index.html:主页
+dist 构建目录文件
+doc
+	放置项目文档
