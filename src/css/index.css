@@ -33,6 +33,15 @@ h1,h2,h3,h4,h5,h6{font-weight:100;}
 .header_r_bg a{background-position-x:-604px;}
 .header_r_bg a{background-position-y:-329px;}
 
+/*---------------------------hovering_box------------------------------------*/
+.hovering_box{width:98px;height:300px;position:fixed;top:30%;right:5%;background:#fff;z-index:99;}
+.hovering_box_top{width:98px;height:40px;padding:5px 0;background:#000;text-align:center;}
+.hovering_box_top span{display:block;color:#f00;font-size:16px;font-weight:600;}
+.hovering_box_top i{display:block;color:#fff;font-style:normal;font-size:14px;}
+.hovering_box_bottom{width:96px;height:204px;padding:5px 0;border:1px solid #ccc;text-align:center;}
+.hovering_box_bottom img{width:75px;height:75px;margin-bottom:5px;margin-left:10px;}
+.click_toTop{width:98px;height:24px;background:url(img/base_z.png) -564px -423px;}
+
 /*---------------------------brand------------------------------------*/
 .brand{height:90px;}
 .brand_con{width:1041px;height:90px;margin:0 auto;}
@@ -80,21 +89,57 @@ h1,h2,h3,h4,h5,h6{font-weight:100;}
 
 
 /*---------------------------product------------------------------------*/
-.product{height:6000px;}
-.product_con{height:6000px;width:1040px;margin:0 auto;padding:20px 20px 0px;}
+.product{height:auto;overflow:hidden;}
+.product_con{height:auto;width:1040px;margin:0 auto;padding:20px 20px 0px;}
 
 /*---------------------------pro_topBanner------------------------------------*/
 .pro_topBanner{width:1000px;height:100px;margin-bottom:40px;}
+
+/*---------------------------pro_menu------------------------------------*/
 .pro_menu{width:1000px;height:auto;}
-.pro_menu h3{width:1000px;height:28px;margin-bottom:10px;}
+.pro_menu h3{width:1000px;height:28px;margin-bottom:10px;float:left;}
 .pro_leftSpan{float:left;width:6px;height:28px;background:url(img/icon_title.png) no-repeat left top;}
-.pro_title{float:left;width:98px;height:28px;padding:0px 10px;font-size:24px;line-height:26px;}
+.pro_title{float:left;height:28px;padding:0px 10px;font-size:24px;line-height:26px;}
 .pro_rightSpan{float:left;width:6px;height:28px;background:url(img/icon_title.png) no-repeat right top;}
 
+/*---------------------------pro_menu_left------------------------------------*/
+.pro_menu_left{width:1020px;height:auto;float:left;position:relative;}
+.pro_menu_con{width:320px;height:232px;float:left;margin-right:20px;margin-bottom:20px;}
+.menu_con_imgBox{width:320px;height:192px;position:relative;overflow:hidden;}
+.img_mask{width:320px;height:192px;position:absolute;background:rgba(0,0,0,0.4);color:#fff;line-height:192px;text-align:center;display:none;}
+.menu_con_conBox{width:320px;height:40px;}
+.pro_menu_con_left{float:left;height:40px;line-height:40px;}
+.pro_menu_con_num{float:right;height:40px;line-height:40px;color:#f00;font-size:14px}
+.pro_menu_con_right{float:right;height:40px;line-height:40px;color:#f00;}
+
+/*---------------------------pro_menu_right------------------------------------*/
+.pro_menu_right{width:320px;height:484px;float:right;background:#f00;margin-bottom:20px;margin-right:20px;}
+.pro_menu_Static{position:relative;width:320px;height:484px;float:left;margin-bottom:20px;margin-right:20px;}
+.static_mask{position:absolute;width:320px;height:484px;background:#000;z-index:3;opacity:0.4;}
+.pro_menu_static_link{z-index:5;color:#fff;position:absolute;top:170px;width:170px;height:108px;padding:10px 0;border-top:1px solid #fff;border-bottom:1px solid #fff;margin:0 75px;}
+.pro_menu_static_link h4{font-size:32px;color:#fff;text-align:center;}
+.pro_menu_static_link a{margin-left:55px;color:#fff;padding-right:15px;background:url(img/icon_arrows.png) no-repeat right;}
+.pro_menu_static_link a:hover{color:#f00;}
+.static_link_a{width:170px;height:36px;margin-bottom:10px;}
+.pro_menu_static_link .static_link_a a{color:#fff;padding-right:0px;background:none;margin-left:0px;}
+.pro_menu_static_link .static_link_a a:hover{color:#f00;}
 
 
-
-
+/*---------------------------week_nav------------------------------------*/
+.week_nav{width:1000px;height:25px;float:left;margin-bottom:10px;}
+.week_nav li{float:left;width:90px;height:21px;cursor:pointer;}
+.week_nav span{float:left;width:90px;height:16px;border-right:1px solid #000;text-align:center;}
+.week_nav_first{border-bottom:4px solid #000;}
+.week_nav_first span{border-left:1px solid #000;}
+.start_time{position:absolute;right:0px;font-size:16px;}
+.start_time span{color:#f00;font-size:27px;font-family: Constantia;}
+.week_activities{width:1020px;height:auto;float:left;position:relative;}
+.the_activities{width:318px;float:left;border:1px solid #e7e7e7;margin-bottom:20px;margin-right:20px;}
+.activities_img{width:149px;height:90px;float:left;}
+.activities_txt{width:169px;height:90px;float:left;background:#f2f2f2;}
+.activities_txt p{width:159px;margin-left:10px;margin-top:10px;}
+.activities_txt i{width:159px;color:#f00;display:block;margin-left:10px;margin-top:10px;}
+.activities_txt i span{color:#f00;font-size:14px;}
 
 
 
